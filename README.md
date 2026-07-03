@@ -1,7 +1,7 @@
 # WP-ZigZag Delayed Downloads for WooCommerce
 
 A powerful WordPress plugin designed to add a customizable delay timer to WooCommerce product downloads, encouraging user engagement or preventing immediate access.
-
+<img src="https://raw.githubusercontent.com/rajatinfo/WP-ZigZag-Delayed-Downloads-for-WooCommerce/refs/heads/main/assets/img/banner-1544x500.png">
 ---
 
 ## 📸 Preview
