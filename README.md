@@ -1,145 +1,46 @@
-=== WP ZigZag Delayed Downloads for WooCommerce ===
-Contributors: wpzigzag
-Tags: woocommerce, digital downloads, download countdown, delayed download, file download, woocommerce downloads, download manager
-Requires at least: 6.7
-Tested up to: 6.8
-Requires PHP: 7.4
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# WP-ZigZag Delayed Downloads for WooCommerce
 
-Add a customizable countdown page before WooCommerce downloadable products. Improve customer experience with delayed downloads, progress bars, and automatic download support.
+A powerful WordPress plugin designed to add a customizable delay timer to WooCommerce product downloads, encouraging user engagement or preventing immediate access.
 
-== Description ==
+---
 
-WP ZigZag Delayed Downloads for WooCommerce adds a professional countdown page before WooCommerce downloadable products.
+## 📸 Preview
+![Plugin Screenshot](assets/img/your-image-filename.png)  
+*(Replace 'your-image-filename.png' with your actual image file name from your assets folder)*
 
-Instead of downloading immediately, customers are redirected to a beautiful waiting page where they see a countdown, progress bar, custom messages, and a Download Now button.
+---
 
-Perfect for:
+## ✨ Key Features
+*   **Customizable Delay:** Set a specific time delay before the download button becomes active.
+*   **WooCommerce Integration:** Seamlessly works with standard WooCommerce product download settings.
+*   **User-Friendly:** Simple UI to configure settings directly from the WordPress dashboard.
+*   **Lightweight:** Built for performance with minimal overhead.
 
-* Digital products
-* Software downloads
-* eBooks
-* PDFs
-* Courses
-* Music
-* Videos
-* S3 Compatible Storage
-* Cloud Storage
+---
 
-= Features =
+## 🚀 Installation
 
-* Countdown before download
-* Automatic download after countdown
-* Manual Download Now button
-* Beautiful responsive waiting page
-* Progress bar
-* Custom header message
-* Custom footer message
-* Show product title
-* Show product image
-* Works with WooCommerce native downloads
-* Works from My Account downloads
-* Works from Order Received page
-* Compatible with signed download URLs
-* Lightweight
-* Translation ready
-* No external libraries
+1.  **Download:** Download the latest release from this repository as a `.zip` file.
+2.  **Upload:** Go to your WordPress Dashboard -> **Plugins** -> **Add New** -> **Upload Plugin**.
+3.  **Install:** Choose the downloaded `.zip` file and click **Install Now**.
+4.  **Activate:** Click **Activate Plugin**.
+5.  **Configure:** Navigate to the plugin settings page (usually under WooCommerce or a dedicated menu) to set your desired delay time.
 
-== Installation ==
+---
 
-1. Upload the plugin to the `/wp-content/plugins/` directory.
-2. Activate the plugin.
-3. Make sure WooCommerce is installed and activated.
-4. Go to **WooCommerce → Delayed Downloads**.
-5. Configure your preferred settings.
-6. Save changes.
+## 🛠 Usage
+Once activated, the plugin will automatically apply the delay timer to your configured WooCommerce downloadable products. No coding required!
 
-The plugin automatically creates the required waiting page during activation.
+---
 
-== Frequently Asked Questions ==
+## 📝 Changelog
+- **v1.0.0**
+  - Initial release.
 
-= Does this work with WooCommerce digital products? =
+---
 
-Yes.
+## 🤝 Support & Contributing
+If you encounter any issues or have suggestions for new features, please feel free to [open an issue](https://github.com/rajatinfo/WP-ZigZag-Delayed-Downloads-for-WooCommerce/issues).
 
-= Does it work with downloadable PDFs? =
-
-Yes.
-
-= Does it work with ZIP files? =
-
-Yes.
-
-= Does it work with MP4 videos? =
-
-Yes.
-
-= Does it work with Amazon S3? =
-
-Yes, as long as WooCommerce provides the download URL.
-
-= Does it work with Cloudflare R2? =
-
-Yes.
-
-= Does it work with S3 Compatible plugins? =
-
-Yes.
-
-= Does it modify WooCommerce files? =
-
-No.
-
-It uses official WooCommerce hooks and filters.
-
-= Will it work with future WooCommerce versions? =
-
-Yes.
-
-The plugin follows WooCommerce best practices and official APIs.
-
-== Screenshots ==
-
-1. Plugin settings page
-2. Countdown waiting page
-3. Download starts automatically
-4. Responsive mobile view
-
-== Changelog ==
-
-= 1.0.0 =
-
-* Initial release
-* Countdown page
-* Automatic download
-* Manual Download Now button
-* Progress bar
-* WooCommerce integration
-* Responsive UI
-* Translation ready
-* WordPress Coding Standards
-* Multisite uninstall support
-
-== Upgrade Notice ==
-
-= 1.0.0 =
-
-Initial public release.
-
-== Credits ==
-
-Developed by WP ZigZag.
-
-WooCommerce is a trademark of Automattic Inc.
-
-== License ==
-
-This plugin is licensed under the GPL v2 or later.
-
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License.
-
-For more information visit:
-
-https://www.gnu.org/licenses/gpl-2.0.html
+---
+*Developed by [rajatinfo]*
